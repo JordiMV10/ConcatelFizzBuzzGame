@@ -1,0 +1,21 @@
+
+<div class = "myDiv">
+  <label class = "label1"> Your Random Number </label>
+  <h1> {{randomNumber}}  </h1>
+</div>
+
+  <input *ngIf="configSrvc.EnableButtonsGenStart()" type = "button"  class="button1" value = "Start" (click)="MyRandomNumber()" />
+  <input *ngIf="configSrvc.EnableButtonsGenStop()" type = "button" class="button2" value = "Stop" (click)="GetRandomNumber()"/>
+
+
+  <div class  = "myDiv">
+    <label class = "label1"> Start Sequence with </label>
+    <h1> {{myStartNumber}}  </h1>
+  </div>
+
+
+
+
+
+
+

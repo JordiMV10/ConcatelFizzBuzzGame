@@ -1,0 +1,32 @@
+#cssmenu {
+  float: left;
+  margin-left: 5px;
+  width: 500px;
+  height: 680px;
+  /*margin-top: 10px;*/
+  margin-left: 5px;
+  background-color: darkgrey;
+  /*font-family: sans-serif;*/
+  /*font-family:inherit;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  zoom: 1;
+  font-size: 16px;
+}
+
+
+#cssmenu2 {
+  float: inherit;
+  margin-top: 10px;
+  width: 980px;
+  height: 680px;
+  background-color: cadetblue;
+  /*font-family: sans-serif;*/
+  /*font-family: inherit;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  zoom: 1;
+  font-size: 16px;
+  /*margin-top: -740px;*/
+  margin-left: 520px;
+}

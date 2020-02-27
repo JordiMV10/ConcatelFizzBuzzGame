@@ -1,0 +1,27 @@
+<div *ngIf="configSrvc.EnableButtonsGenSeq()">
+  <input type = "button"  class="button1" value = "StartSequence" (click)="SequenceGeneration()" />
+  <br>
+  <br>
+<p> {{dateTimeNow | date: "medium"}} </p>
+<p> Seq: {{Sequence}}</p>
+</div>
+
+<div class="table-container">
+  <table>
+      <thead>
+          <tr>
+              <th width = 115>ID</th>
+              <th>SEQUENCE</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let seq of configSrvc.sequences">
+              <td width = 115>{{seq.id}}</td>
+              <td>{{seq.dataSequence}}</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+
+
